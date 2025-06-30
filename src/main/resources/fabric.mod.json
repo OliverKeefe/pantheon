@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.modid.Pantheon"
+			"com.pantheon.Pantheon"
 		],
 		"client": [
-			"com.modid.PantheonClient"
+			"com.pantheon.PantheonClient"
 		]
 	},
 	"mixins": [

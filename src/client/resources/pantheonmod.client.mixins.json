@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.modid.mixin.client",
+	"package": "com.pantheon.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"
