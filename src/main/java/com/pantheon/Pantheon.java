@@ -1,5 +1,8 @@
 package com.pantheon;
 
+import com.pantheon.block.PantheonBlock;
+import com.pantheon.item.PantheonItem;
+import com.pantheon.item.tool.PantheonTool;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,7 +21,10 @@ public class Pantheon implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+		PantheonItem.initialize();
+		PantheonBlock.initialize();
+		PantheonTool.initialize();
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Initialize Pantheon mod files.");
 	}
 }
